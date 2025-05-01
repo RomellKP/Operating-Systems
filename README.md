@@ -28,8 +28,11 @@
   Command Handling and IPC, and URL filtering. 
 
   **Features**  
-  - hello
-  - hello 2
+  - Multiple browser tabs managed through seprate processes each a child forked by the controller
+  - Comunication with tabs is done with two pairs of pipes (inbound and outbound)
+  - Users can mark URLs as favorites which are saved to '.favorites' and displayed in controller's GUI
+  - URLs in '.blacklist' are not able to be loaded in tabs
+  - Controller works with GTK's event loop to handle GUI and pipe communication concurrently
   
   **Run and Compile:**  
   First build everything my using "make", then run make test or run and compile browser.c
