@@ -7,7 +7,7 @@ Project 1:
   favorites, and tab lifecycle events. 
 
   Features:
-  -GUI-based controller using GTK+
+  -GUI-based controller using GTK+ 
   -Dynamic tab creation ('+' button)
   -Independent rendering tabs
   -Inter-process communication using non-blocking pipes
