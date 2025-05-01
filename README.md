@@ -42,8 +42,19 @@
 
 **Project 3:**
 
-  **Description:** 
+  **Description:**  
+  Implements a multithreaded web server that handles cultiple client requests concurrently using dispatcher and worker threads. It supports queuing, caching,
+ logging and content serving. 
+
+ **Features**  
+ - Thread pool with configurable number of dispatchers and workers
+ - request queue with configurable length
+ - File-based caching with FIFO replacement
+ - Logging of all client requests
+ - Synchronization with pthread mutexes
   
-  **Run and Compile:** 
+  **Run and Compile:**  
+  First build everything my using "make", then run make test or run and compile server.c
   
-  **My Contributions:** 
+  **My Contributions:**  
+  server.c
