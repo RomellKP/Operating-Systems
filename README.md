@@ -28,7 +28,8 @@
   Command Handling and IPC, and URL filtering. 
 
   **Features**  
-  - 
+  - hello
+  - hello 2
   
   **Run and Compile:**  
   First build everything my using "make", then run make test or run and compile browser.c
