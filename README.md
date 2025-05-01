@@ -1,4 +1,4 @@
-Projects for Operating Systems:
+**Projects for Operating Systems**:
 
 Project 1:
 
