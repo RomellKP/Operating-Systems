@@ -8,12 +8,12 @@
   favorites, and tab lifecycle events. 
 
   **Features:**  
-  -GUI-based controller using GTK+  
-  -Dynamic tab creation ('+' button)  
-  -Independent rendering tabs  
-  -Inter-process communication using non-blocking pipes  
-  -URL entry handling  
-  -Favorties system  
+  - GUI-based controller using GTK+  
+  - Dynamic tab creation ('+' button)  
+  - Independent rendering tabs  
+  - Inter-process communication using non-blocking pipes  
+  - URL entry handling  
+  - Favorties system  
   
   **Run and Compile:**  
   First build everything my using "make", then run make test or run and compile browser.c (ignores blacklist file)
@@ -26,6 +26,9 @@
   **Description:**  
   This project betters project 1 by implementing and improving upon different features such as the tab and process management, the favorites system, 
   Command Handling and IPC, and URL filtering. 
+
+  **Features**  
+  - 
   
   **Run and Compile:**  
   First build everything my using "make", then run make test or run and compile browser.c
